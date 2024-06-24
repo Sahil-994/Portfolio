@@ -1,0 +1,90 @@
+/* Style the contact form */
+/* Add some basic styling to the form */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #6814df;
+    background-color: #ada5d5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-top: 0%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  label {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #0f0f0f;
+  }
+  
+  input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #5b5151;
+    border-radius: 5px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    height: 40px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #error {
+    color: #red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add some spacing between form elements */
+  form > * {
+    margin-bottom: 20px;
+  }
+  
+  /* Make the form responsive */
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+    form {
+      padding: 10px;
+    }
+    input, textarea {
+      width: 90%;
+    }
+    button[type="submit"] {
+      width: 90%;
+    }
+  }

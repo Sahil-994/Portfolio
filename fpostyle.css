@@ -111,7 +111,8 @@ background-color: #fff;
     }
     
     .nav a:hover {
-        color: #0d09f0;
+        color: blueviolet;
+        text-decoration: underline;
     }
 
     .text{
@@ -188,7 +189,7 @@ margin-left: 20px;
     height: 100vh;
 position: relative;
 background-color: #b0a11c;
-border-top: 5px solid rgb(229, 111, 9);
+border-top: 4px solid #0000001f;
 }
 #page2>#left{
     height: 100%;
@@ -331,7 +332,7 @@ margin-top: 2%;
 #page3{
     height: 100vh;
     width: 100vw;
-background-color: #d38656fe;
+background-color: #fff;
     position: relative;
 }
 #projects{
@@ -409,7 +410,7 @@ background-color: #d38656fe;
     border-radius: 12px;
     -webkit-user-select: none;
     user-select: none;
-    box-shadow: box-shadow: 4px 1px 3px #0000001f, 4px 1px 2px #0000003d;
+    box-shadow: 4px 1px 3px #0000001f, 4px 1px 2px #0000003d;
      transition: all 0.5s ease-in-out;
  }
  .p2:hover{
@@ -474,7 +475,63 @@ margin-top: 15px;
 }
 
 #page4{
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
-    background-color: red;
+display: flex;
+flex-direction: column;
+    border-top:4px solid #0000001f;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/26/11/27/city-5439202_1280.jpg);
+  background-size: cover;
+  opacity: 1;
 }
+#social{
+    width: max-content;
+    flex-grow: 6;
+        display: flex;
+        flex-direction: column;
+        
+        margin-left: 80px;
+        left: 20%;
+}
+#social h1{
+    text-decoration: underline;
+    
+}
+#social h3{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px ;
+    opacity: 1;
+}
+#social a{
+    height: fit-content;
+    width: max-content;
+    text-decoration: none;
+    margin: 10px;
+}
+#social a:hover{
+    color: #fff;
+}
+
+#contactinfo{
+    width: max-content;
+    flex-grow: 6;
+        display: flex;
+        flex-direction: column;
+        
+        
+        margin-left: 45%;
+        
+        position:absolute;
+    
+}
+#contactinfo h1{
+
+    left: 40%;
+    text-decoration: underline;
+}
+ #contact h3{
+    position: absolute;
+
+ }
